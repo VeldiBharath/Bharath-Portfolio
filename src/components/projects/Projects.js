@@ -28,6 +28,13 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
+          title="E-Commerce Sports Application"
+          des="Led the development of a MEAN Stack Sports application with enhanced user engagement after the platform was live, catering to 500+ active users in college."
+          src={projectTen}
+          gitlink={"https://github.com/VeldiBharath/EsportzApplication"}
+          nogit={false}
+        />
+        <ProjectsCard
           title="News Research Tool"
           des=" A LLM Application made of Word Embeddings, Vector Database, Semantic search, LangChain, OpenAI and Streamlit."
           src={projectOne}
@@ -35,12 +42,12 @@ const Projects = () => {
           nogit={false}
         />
         <ProjectsCard
-          title="Road Accident Data Analysis"
-          des=" End-to-end data analysis projects using Power BI, DAX (Data Analysis Expressions), Excel, Power Query, SQL."
-          src={projectTwo}
-          gitlink={
-            "https://github.com/VeldiBharath/Road-Accident-Data-Analysis-using-POWERBI"
-          }
+          title="E-Commerce: Student Smart Rentals"
+          des="The Rental & Services
+          Management System project seeks to streamline the moving-in process for
+          both in-state and overseas students."
+          src={projectSix}
+          gitlink={"https://github.com/VeldiBharath/Student-Smart-Rentals"}
           nogit={false}
         />
         <ProjectsCard
@@ -49,6 +56,15 @@ const Projects = () => {
           src={projectThree}
           gitlink={
             "https://github.com/VeldiBharath/Netflix-Clone-using-Bubble.IO"
+          }
+          nogit={false}
+        />
+        <ProjectsCard
+          title="Road Accident Data Analysis"
+          des=" End-to-end data analysis projects using Power BI, DAX (Data Analysis Expressions), Excel, Power Query, SQL."
+          src={projectTwo}
+          gitlink={
+            "https://github.com/VeldiBharath/Road-Accident-Data-Analysis-using-POWERBI"
           }
           nogit={false}
         />
@@ -66,15 +82,7 @@ const Projects = () => {
           gitlink={"https://github.com/VeldiBharath/MovieRecommendationRender"}
           nogit={false}
         />
-        <ProjectsCard
-          title="E-Commerce: Student Smart Rentals"
-          des="The Rental & Services
-          Management System project seeks to streamline the moving-in process for
-          both in-state and overseas students."
-          src={projectSix}
-          gitlink={"https://github.com/VeldiBharath/Student-Smart-Rentals"}
-          nogit={false}
-        />
+
         <ProjectsCard
           title="Chatbot for Covid Information"
           des="Developed a Covid information chatbot using LLM, RASA, and LangChain for real-time assistance."
@@ -94,13 +102,6 @@ const Projects = () => {
           gitlink={
             "https://github.com/VeldiBharath/AdvancedMushroomClassification"
           }
-          nogit={false}
-        />
-        <ProjectsCard
-          title="E-Commerce Sports Application"
-          des="Led the development of a MEAN Stack Sports application with enhanced user engagement after the platform was live, catering to 500+ active users in college."
-          src={projectTen}
-          gitlink={"https://github.com/VeldiBharath/EsportzApplication"}
           nogit={false}
         />
       </div>

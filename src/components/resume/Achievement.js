@@ -47,6 +47,27 @@ const Achievement = () => {
         </div>
         <div className="mt-14 w-full h-[1500px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
+            title="Data Structures and Algorithms"
+            subTitle="Scaler"
+            result="Scaler Academy"
+            des="Master Data Structures and Algorithms (DSA) by solving over 500+ problems. Applied them to real-world scenarios via projects and competitions."
+          />
+          <ResumeCard
+            title="
+            The Ultimate ReactJS Course"
+            subTitle="Udemy"
+            result="Udemy"
+            des="Master advanced React development by building 10+ projects, including two large apps. Learn Next.js router, Server Components, state management, 
+            custom hooks, React Router, and Redux. Gain job-ready skills in authentication, data sorting, pagination, dark mode, and styling with Tailwind CSS."
+          />
+          <ResumeCard
+            title="
+            AWS Cloud Practitioner Certification(CLF-C01)"
+            subTitle="Udemy"
+            result="Udemy"
+            des="Certified AWS Cloud Practitioner with comprehensive knowledge of AWS cloud concepts, services, security, architecture, pricing, and support."
+          />
+          <ResumeCard
             title="
             Deep learing Specialization"
             subTitle="DeepLearning.AI"
@@ -67,19 +88,7 @@ const Achievement = () => {
             des="Introduce Natural Language Processing (NLP) fundamentals, implement tokenization, perform sentiment analysis, 
             and apply transformer models like BERT for advanced text processing tasks."
           />
-          <ResumeCard
-            title="DSA and Data Science"
-            subTitle="Scaler"
-            result="Scaler Academy"
-            des="Master Data Structures and Algorithms (DSA), Machine Learning and Deep Learning Models. Apply them to real-world problems."
-          />
-          <ResumeCard
-            title="
-            Introduction to Big data"
-            subTitle="UC San Diego"
-            result="Coursera"
-            des="Introduce Big Data fundamentals, implement distributed processing, analyze large datasets, and use frameworks like Hadoop and Spark for scalable data solutions."
-          />
+
           <ResumeCard
             title="Data Analysis and Visualization"
             subTitle="IBM"

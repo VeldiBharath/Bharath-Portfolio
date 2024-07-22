@@ -6,9 +6,9 @@ const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
       "Professional Coder.",
-      "Full Stack Developer.",
-      "Machine Learning Engineer.",
-      "Deep Learning Engineer.",
+      "Front-End Developer",
+      "Back-End Developer",
+      "Full Stack Cloud Developer.",
       "GenAI Enthusiast.",
     ],
     loop: true,

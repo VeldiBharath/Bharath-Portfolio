@@ -18,8 +18,9 @@ const ContactLeft = () => {
           Open For Oppurtunities
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Generative AI Enthusiast | Actively seeking Internship opportunities |
-          Indiana University Bloomington | Ex-Amazon
+          Ex-Software Engineer at Amazon | MSCS at IUB | AWS, Python, React,
+          SQL, DL, Gen-AI | Full Stack Developer | Actively seeking Software
+          Engineering Opportunities.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+1 930-333-4106</span>
