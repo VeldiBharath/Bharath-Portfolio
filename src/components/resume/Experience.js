@@ -15,11 +15,16 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Teaching Assistant - Software Engineering"
+            title="Research Software Developer"
             subTitle="Indiana University Bloomington - (Jul 2024 - Present)"
             result="USA"
-            des="As a Teaching Assistant in Software Engineering at IUB, I assist students in mastering core concepts 
-            and practical skills through lectures, labs, and one-on-one guidance."
+            des="Develop advanced statistical methods to enhance fMRI data analysis accuracy and reliability. Implement user-friendly software for functional brain feature extraction."
+          />
+          <ResumeCard
+            title="Research Software Developer"
+            subTitle="Indiana University Bloomington - (Jul 2024 - Present)"
+            result="USA"
+            des=" Program frontend and backend for behavioral data collection and conduct detailed data analysis to derive insights and support research findings."
           />
           <ResumeCard
             title="Software Engineer"

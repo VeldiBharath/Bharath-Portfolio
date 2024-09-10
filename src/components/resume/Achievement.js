@@ -88,13 +88,6 @@ const Achievement = () => {
             des="Introduce Natural Language Processing (NLP) fundamentals, implement tokenization, perform sentiment analysis, 
             and apply transformer models like BERT for advanced text processing tasks."
           />
-
-          <ResumeCard
-            title="Data Analysis and Visualization"
-            subTitle="IBM"
-            result="Coursera"
-            des="Analyze data with Python using pandas, visualize insights with Matplotlib and Seaborn, and apply ML for predictive analytics."
-          />
         </div>
       </div>
     </motion.div>
